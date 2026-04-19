@@ -89,14 +89,16 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 
 ---
 
-## 📁 Folder Structure
-📦 Customer-Shopping-Behavior-Analysis
-┣ 📜 analysis.ipynb
-┣ 📄 shopping_behavior_updated.csv
-┣ 📂 SQL_Queries/
-┣ 📊 dashboard.pbix
-┗ 📄 README.md
-
+## 🛠️ Repository Structure
+Organized for scalability and clarity:
+```text
+├── .ipynb_checkpoints/       # Notebook checkpoints
+├── .venv/                    # Virtual environment for dependency isolation
+├── analysis.ipynb            # Phase 1: Python Data Pre-processing
+├── shopping_behavior_updated.csv # The cleaned dataset
+├── Customer Behavior Dashboard.pbix # Phase 3: Power BI Visualizations
+├── SQL Queries/              # Phase 2: MySQL Analytical Scripts
+└── README.md                 # Project Documentation
 
 ---
 
