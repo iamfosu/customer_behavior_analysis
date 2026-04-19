@@ -1,6 +1,7 @@
 # 📊 Customer Shopping Behavior Analysis
 
 A complete end-to-end **Data Analytics Project** that transforms raw customer data into actionable business insights using **Python, MySQL, and Power BI**.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
