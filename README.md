@@ -88,6 +88,7 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 | 👥 Customer Behavior | Gender-based differences in discount usage |
 
 ---
+
 ## 🚀 Get Started
 
 <p align="center">
@@ -101,7 +102,6 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 ```bash
 git clone https://github.com/iamfosu/customer_behavior_analysis.git
 cd customer_behavior_analysis
----
 
 ## 📌 Conclusion
 
