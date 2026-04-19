@@ -88,7 +88,12 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 | 👥 Customer Behavior | Gender-based differences in discount usage |
 
 ---
-
+## Use this repository
+<p align="center">
+  <a href="https://github.com/iamfosu/customer_behavior_analysis">
+    <img src="https://img.shields.io/badge/View-Repository-blue?style=for-the-badge&logo=github">
+  </a>
+</p>
 ---
 
 ## 📌 Conclusion
