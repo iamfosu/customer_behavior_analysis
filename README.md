@@ -104,6 +104,7 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 git clone https://github.com/iamfosu/customer_behavior_analysis.git
 cd customer_behavior_analysis
 
+```
 ## 📌 Conclusion
 
 This project highlights how data analytics can drive **business decision-making** by:
