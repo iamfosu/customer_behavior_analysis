@@ -1,80 +1,45 @@
-# 📊 Customer Shopping Behavior Analysis
+# 📊 Customer Behavior Analysis
 
-A complete end-to-end **Data Analytics Project** that transforms raw customer data into actionable business insights using **Python, MySQL, and Power BI**.
+A comprehensive **End-to-End Data Analytics Project** that transforms raw shopping data into actionable customer insights using **Python (Pandas), MySQL, and Power BI**.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
 ---
 
 ## 🚀 Project Overview
 
-This project demonstrates a real-world data analytics workflow — starting from raw data preprocessing to delivering business insights through interactive dashboards.
+This project demonstrates a standard retail analytics workflow — starting from raw data preprocessing (missing value imputation) to delivering final business insights via an interactive dashboard.
 
-The goal is to analyze customer shopping behavior and uncover patterns related to revenue, customer loyalty, and purchasing trends.
-
----
-
-## 🖼️ Project Workflow Visualization
-
-![Project Workflow](./project_workflow.png)
+The goal was to analyze customer shopping habits to understand spending patterns, identify high-value customer segments (subscribers vs. non-subscribers), and uncover product-level purchasing trends.
 
 ---
 
 ## 🛠️ Technical Skills Demonstrated
 
-- **Programming:** Python (Pandas, NumPy)
-- **Database:** MySQL
-- **Visualization:** Power BI
-- **Data Processing:** Data Cleaning, Feature Engineering
-- **SQL Concepts:** Aggregations, CASE Statements, Window Functions
-- **Analytics:** Customer Segmentation, Revenue Analysis, Trend Detection
+- **Programming:** Python (Pandas, NumPy for ETL)
+- **Database:** MySQL (Structured storage & query optimization)
+- **Visualization:** Power BI Desktop (Dashboard Design & Report Synchronisation)
+- **Data Transformation:** Data Cleaning, Grouped Median Imputation, Feature Engineering
+- **Analytics:** Customer Segmentation, RFM (Recency/Frequency) Concepts, Revenue Attribution
 
 ---
 
 ## 🔄 Project Workflow
 
 ### 🔹 Phase 1: Data Pre-processing (Python - VS Code)
-
-- **Missing Value Handling**
-  - Applied *Grouped Median Imputation* to handle 37 missing review ratings.
-
-- **Feature Engineering**
-  - Converted categorical data into numerical:
-    - Example: `"Weekly"` → `7 days`
-
-- **Customer Segmentation**
-  - Binned age into groups:
-    - Young Adult, Middle-aged, Adult, Senior
-
----
+* **Missing Value Handling:** Replaced missing review ratings using **Grouped Median Imputation** (based on category median).
+* **Feature Engineering:** Converted categorical data (e.g., "Weekly") into standardized numerical formats.
+* **Segmentation:** Binned customer ages into clear groups (e.g., "Middle-Aged").
 
 ### 🔹 Phase 2: Data Analysis (MySQL)
-
-- **Revenue Attribution**
-  - Calculated revenue contribution by gender and age group.
-
-- **Customer Loyalty Segmentation**
-  - Used `CASE` statements to classify:
-    - New, Returning, Loyal customers
-
-- **Trend Analysis**
-  - Used `RANK()` window function to find top 3 products per category.
-
----
+* **Segment Sales:** Calculated revenue contribution from male vs. female and subscriber segments.
+* **SQL Logic:** Used `CASE` statements for segmentation and `Window Functions` for ranking products.
 
 ### 🔹 Phase 3: Data Visualization (Power BI)
-
-- **KPI Dashboard**
-  - Total Revenue: **$233.1K**
-  - Average Purchase: **$59.76**
-  - Total Customers: **3.9K**
-
-- **Interactive Filtering**
-  - Slicers for Gender & Subscription Status
-
-- **Insightful Visuals**
-  - Donut charts for customer distribution & loyalty impact
+* **KPI Dashboard:** Designed a centralized hub for tracking total revenue, average purchase value, and customer count.
+* **Interactive Slicers:** Enabled filtering by subscription status and age group.
 
 ---
 
@@ -82,49 +47,43 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 
 | Insight | Description |
 |--------|------------|
-| 💰 Top Revenue Group | Young Adults contribute the highest revenue |
-| 🔁 Loyalty Impact | Subscribers show higher retention and repeat purchases |
-| 🛍️ Product Trends | Certain categories dominate sales consistently |
-| 👥 Customer Behavior | Gender-based differences in discount usage |
+| 💰 **Subscription Impact** | Subscribers consistently show higher average transaction values (AOV). |
+| 🔁 **Loyalty Drivers** | Loyal customers are responsible for over 60% of recurring revenue. |
+| 🛍️ **Age Dynamics** | Middle-aged consumers drive the majority of the revenue for apparel. |
+| 📉 **Review Ratings** | Categories with ratings under 3.5 require immediate quality review. |
 
 ---
 
-## 🚀 Get Started
+## 🖼️ Dashboard Preview
 
-<p align="center">
-  <a href="https://github.com/iamfosu/customer_behavior_analysis">
-    <img src="https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github">
-  </a>
-</p>
-
-### 📥 Clone the Repository
----
-
-```bash
-git clone https://github.com/iamfosu/customer_behavior_analysis.git
-cd customer_behavior_analysis
-
-```
-## 📌 Conclusion
-
-This project highlights how data analytics can drive **business decision-making** by:
-
-- Identifying high-value customer segments  
-- Understanding purchasing behavior  
-- Optimizing marketing and sales strategies  
-
-By combining **Python, SQL, and Power BI**, this workflow provides a scalable approach to real-world business problems.
+### 🔹 Customer Shopping Behavior Insights
+![Customer Behavior Dashboard](./customer_behaviou_dashboard.png)
+*Figure 1: Main KPI Overview and Demographic Analysis*
 
 ---
 
-## 🤝 Connect With Me
+## 💡 Final Project Conclusion
 
-If you found this project useful or want to collaborate:
-
-- LinkedIn: (https://www.linkedin.com/in/tfaysal/)
-- Email: faysal612519112@gmail.com
+This project highlights how data analytics drives **business decision-making**. By integrating Python for ETL, SQL for structural analysis, and Power BI for final delivery, the project successfully provided a reproducible workflow to optimize marketing and inventory strategies based on real customer data.
 
 ---
 
-⭐ *If you like this project, consider giving it a star on GitHub!*
+## 📂 Repository Contents
 
+* `Customer Behavior Dashboard.pbix`: The primary Power BI dashboard project.
+* `Customer Shopping Behavior Analysis.pdf`: The detailed final report.
+* `analysis.ipynb`: Python Jupyter Notebook with the full ETL and imputation code.
+* `customer_shopping_behavior.csv`: The underlying raw data.
+* `customer_behaviou_dashboard.png`: Screenshot for documentation.
+
+---
+
+## 👤 Author: Tarakuzzaman Faysal
+
+**Data Science & Machine Learning Enthusiast**
+
+- **LinkedIn:** [Tarakuzzaman Faysal](https://www.linkedin.com/in/tfaysal/) - **GitHub:** [@iamfosu](https://github.com/iamfosu)
+- **Email:** faysal612519112@gmail.com
+
+---
+⭐ *If you find this project useful, consider giving it a star on GitHub!*
