@@ -98,6 +98,7 @@ The goal is to analyze customer shopping behavior and uncover patterns related t
 </p>
 
 ### 📥 Clone the Repository
+---
 
 ```bash
 git clone https://github.com/iamfosu/customer_behavior_analysis.git
